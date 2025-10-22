@@ -38,8 +38,8 @@ header a:hover{
 }
 .banner{
   background-image: url(luya.png);
-  width: 100%;
-  height: 800px;
+  width: 215vh;
+  height: 100vh;
   background-repeat:no-repeat;
   background-size: cover;
   background-position: center;
@@ -77,9 +77,9 @@ header a:hover{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 10vh;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 23vh;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -96,10 +96,10 @@ header a:hover{
 }
 
 .album img {
-  width: 220px;
-  height: 220px;
+  width: 25vh;
+  height: 25vh;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 2vh;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -156,14 +156,14 @@ header a:hover{
 
 .card {
    position: relative;
-   margin-bottom : 200px;
+   margin-bottom : 50vh;
 
-  width: 300px;      
-  height: 450px;
+  width: 50vh;      
+  height: 70vh;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 2vh;
   transition: width 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4vh 10vh rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transform-origin: left; 
 }
@@ -200,7 +200,8 @@ line-height: 18;
 
 .card:hover {
   width:700px;       
-  z-index: 2;         
+  z-index: 2;     
+
 }
 
 .card:hover img {
@@ -295,5 +296,6 @@ footer {
         text-align: center;
       }
     }
+  
   
   
